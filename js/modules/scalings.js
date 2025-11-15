@@ -4,7 +4,7 @@ const SCALINGS = {
 
         base: [
             [10,1,"P"],
-            [100,1,"E2"],
+            [100,1,"P"],
             [1e3,1,"P"],
             [7.5e9,1,"D"],
             ['1e1337',1,"D"],
@@ -15,9 +15,9 @@ const SCALINGS = {
 
         base: [
             [25,1,"P"],
-            [1250,1,"E2"],
+            [1250,1,"P"],
             [5000,1,"P"],
-            [1e6,1,"ME2"],
+            [1e6,1,"P"],
         ],
     },
     shark_tier: {
@@ -25,28 +25,28 @@ const SCALINGS = {
 
         base: [
             [25,1,"P"],
-            [1000,1,"ME2"],
+            [1000,1,"P"],
         ],
     },
     su_s3: {
         get amount() { return player.shark_upg.s3 },
 
         base: [
-            [30,1,"E2"],
+            [30,1,"P"],
         ],
     },
     su_s4: {
         get amount() { return player.shark_upg.s4 },
 
         base: [
-            [10,1,"E2"],
+            [10,1,"P"],
         ],
     },
     su_m1: {
         get amount() { return player.shark_upg.m1 },
 
         base: [
-            [15,1,"L"],
+            [15,1,"P"],
             [50,1,"P"],
         ],
     },
@@ -54,7 +54,7 @@ const SCALINGS = {
         get amount() { return player.shark_upg.m3 },
 
         base: [
-            [10,1,"L"],
+            [10,1,"P"],
             [25,1,"P"],
         ],
     },
@@ -62,7 +62,7 @@ const SCALINGS = {
         get amount() { return player.shark_upg.m5 },
 
         base: [
-            [10,1,"L"],
+            [10,1,"P"],
             [25,1,"P"],
         ],
     },
@@ -72,25 +72,25 @@ const SCALINGS = {
         base: [
             [10,1,"P"],
             [30,1,"P"],
-            [1500,1,"ME2"],
+            [1500,1,"P"],
         ],
     },
     mining_tier: {
         get amount() { return player.humanoid.mining_tier },
 
         base: [
-            [10,1,"L"],
+            [10,1,"P"],
             [15,1,"P"],
-            [100,1,"ME2"],
+            [100,1,"P"],
             [3e3,1,"P"],
-            [1e5,1,"ME2"],
+            [1e5,1,"P"],
         ],
     },
     mining_ascend: {
         get amount() { return player.humanoid.mining_ascend },
 
         base: [
-            [15,1,"L"],
+            [15,1,"P"],
             [25,1,"P"],
         ],
     },
@@ -102,7 +102,7 @@ const SCALINGS = {
         },
 
         base: [
-            [100,1,"ME2"],
+            [100,1,"P"],
         ],
     },
     bh_tier: {
@@ -147,8 +147,8 @@ const SCALINGS = {
         get amount() { return player.omni.rune_upgrades[3] },
 
         base: [
-            [10,1,"L"],
-            [15,1,"L"],
+            [10,1,"P"],
+            [15,1,"P"],
         ],
     },
 }

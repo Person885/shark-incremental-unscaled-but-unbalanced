@@ -315,7 +315,7 @@ const OMNI = {
     godRequire: E('3 PT 3.1e15'),
     
     get godRequire2() {
-        return player.omni.overmodification.scale(100,1.09,'P').pow_base(9).mul(10);
+        return player.omni.overmodification.scale(1e308,1.09,'P').pow_base(9).mul(10);
     },
 
     enterGod() {

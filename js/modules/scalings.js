@@ -216,11 +216,11 @@ function getScalingPowers(id) {
 
     switch (id) {
         case "su_s3": {
-            if (hasDepthMilestone(2,0)) b[0] = 2.75
+            if (hasDepthMilestone(2,0)) b[0] = 1
             break
         }
         case "su_s4": {
-            if (hasDepthMilestone(2,0)) b[0] = 2.75
+            if (hasDepthMilestone(2,0)) b[0] = 1
             break
         }
     }
